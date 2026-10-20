@@ -71,6 +71,9 @@ fun Dice(modifier: Modifier = Modifier) {
                         },
                         onDoubleTap = {
                             diceNumber = 0
+                        },
+                        onLongPress = {
+                            diceNumber = 6
                         }
                     )
                 }
